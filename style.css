@@ -19,6 +19,17 @@ html, body{
     width: 100%;
     background-color: #151515;
 }
+#crsr{
+    height: 2.3vw;
+    width: 2.3vw;
+    border-radius: 50%;
+    /* background-color: white; */
+    position: fixed;
+    border: 1px solid #979797;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+}
 #loader{
     height: 100%;
     width: 100%;
@@ -95,4 +106,37 @@ html, body{
         font-weight: 500;
         opacity: 0;
     }
+}
+
+ /*  page 1 */
+
+#page1 #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3vw 4vw;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+#nav-part2 h4{
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+.hero {
+    /* background-color: red; */
+    width: 72%;
+    margin-left: 25%;
+}
+.hero:nth-child(2){
+    margin-top: 10vh;
+}
+.hero h1{
+    font-size: 6vw;
+    text-transform: uppercase;
+    line-height: 7vw;
+    font-weight: 600;
 }
